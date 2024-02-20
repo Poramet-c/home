@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin: 6px;
+    padding: 16px;
+    background-color: rgba(0, 51, 153, 0.361);
+
+    box-shadow: 1px 1px 1px black;
+}
+
+.heading h1 {
+    text-shadow: 2px 2px 1px black;
+    font-size: 28pt;
+    color: red;
+}
+
+.sub-heading {
+    padding: 5px;
+    display: flex;
+}
+
+.sub-heading .card {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 51, 153, 0.5);
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 3px 3px 1px black;
+}
+
+.sub-heading .card h2 , .container .content-container .content h2 , .container .fun-fact h2 {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+.sub-heading .card p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    gap: 6px;
+    padding: 10px;
+}
+
+.content {
+    margin: 4px;
+    padding: 10px;
+    background-color: rgba(0, 51, 153, 0.5);
+    box-shadow: 1px 1px 1px black;
+}
+
+.fun-fact {
+    margin: 1px;
+    padding: 6px;
+    background-color: rgba(0, 51, 153, 0.5);
+    box-shadow: 1px 1px 1px black;
+}
+
+.fun-fact img {
+    width: 70%;
+}
+
+.content ul {
+    margin-left: 32px;
+    list-style-type: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;;
+}
+
+a:visited { 
+    /* text-decoration: none;  */
+    color: white; 
+   }
